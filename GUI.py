@@ -151,7 +151,7 @@ def main():
             except Exception as e:                   
                 sg.popup_error('ERROR', f'{e} \n Select portion of text to be deleted.', keep_on_top=True)
 
-        #---------------RESULTS & UNASSESSABLE FILES------------------
+        #---------------RESULTS FILES------------------
         if event in ('Open',):                                  #Open file selected
             open_file = values['-RESULTS-'][0]
             os.startfile(open_file)
