@@ -1,0 +1,3 @@
+PySimpleGUI
+docx2txt
+clipboard
