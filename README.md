@@ -8,4 +8,4 @@ Run GUI.py to use.
 Orginally made for a family member who collects genealogy information and saves that information in word documents and txt files. A root directory contains many sub directories, word documents, and txt files.
 
 # Video-Demo
-[https://youtu.be/91s4tBExwzA](https://youtu.be/_-NZJz1loSY)
+https://youtu.be/kb1D3MTnLlY
