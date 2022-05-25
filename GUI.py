@@ -20,8 +20,7 @@ def create_main_window():
 
     #Layout for window  
     search_layout = [
-        [sg.Text('Please Enter Path')],
-        [sg.Text('Root Path:', size =(15, 1)), sg.InputText('', size=100, key='-PATH_BOX-', right_click_menu=['', path_box_layout])],
+        [sg.Text('Path:', size =(15, 1)), sg.InputText('', size=100, key='-PATH_BOX-', right_click_menu=['', path_box_layout])],
         [sg.Text('Search Phrase:', size =(15, 1)), sg.InputText('', size=30, key='-SEARCH_BOX-', right_click_menu=['', search_box_layout]), 
             sg.Radio('Search: Exact Phrase', "RADIO", default=True, key='-EXACT-'), 
             sg.Radio('Search: Any Word in Phrase', "RADIO", default=False, key='-ANY-'), 
